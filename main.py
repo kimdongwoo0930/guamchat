@@ -587,7 +587,7 @@ def Message():
                 "outputs":[
                     {
                         "simpleText":{
-                            "text": "{} ( {} )\n\n이번 버스 : {}{}\n\n다음 버스 : {}{}\n".format(content,busStop,bus01,' 도착 예정' if bus01 not in ['출발대기','운행종료'] else '',bus02,' 도착 예정' if bus02 not in ['출발대기','운행종료'] else '')
+                            "text": "{} ( {} )\n\n이번 버스 : {}\n{}\n\n다음 버스 : {}\n{}\n".format(content,busStop,bus01,' 도착 예정' if bus01 not in ['출발대기','운행종료'] else '',bus02,' 도착 예정' if bus02 not in ['출발대기','운행종료'] else '')
                         }
                     }
                 ]
@@ -603,7 +603,7 @@ def Message():
                 "outputs":[
                     {
                         "simpleText":{
-                            "text": "{} ( {} )\n\n이번 버스 : {}{}\n\n다음 버스 : {}{}\n".format(content,busStop,bus01,' 도착 예정' if bus01 not in ['출발대기','운행종료'] else '',bus02,' 도착 예정' if bus02 not in ['출발대기','운행종료'] else '')
+                            "text": "{} ( {} )\n\n이번 버스 : {}\n{}\n\n다음 버스 : {}\n{}\n".format(content,busStop,bus01,' 도착 예정' if bus01 not in ['출발대기','운행종료'] else '',bus02,' 도착 예정' if bus02 not in ['출발대기','운행종료'] else '')
                         }
                     }
                 ]
@@ -619,7 +619,7 @@ def Message():
                 "outputs":[
                     {
                         "simpleText":{
-                            "text": "{} ( {} )\n\n이번 버스 : {}{}\n\n다음 버스 : {}{}\n".format(content,busStop,bus01,' 도착 예정' if bus01 not in ['출발대기','운행종료'] else '',bus02,' 도착 예정' if bus02 not in ['출발대기','운행종료'] else '')
+                            "text": "{} ( {} )\n\n이번 버스 : {}\n{}\n\n다음 버스 : {}\n{}\n".format(content,busStop,bus01,' 도착 예정' if bus01 not in ['출발대기','운행종료'] else '',bus02,' 도착 예정' if bus02 not in ['출발대기','운행종료'] else '')
                         }
                     }
                 ]
@@ -635,7 +635,7 @@ def Message():
                 "outputs":[
                     {
                         "simpleText":{
-                            "text": "{} ( {} )\n\n이번 버스 : {}{}\n\n다음 버스 : {}{}\n".format(content,busStop,bus01,' 도착 예정' if bus01 not in ['출발대기','운행종료'] else '',bus02,' 도착 예정' if bus02 not in ['출발대기','운행종료'] else '')
+                            "text": "{} ( {} )\n\n이번 버스 : {}\n{}\n\n다음 버스 : {}\n{}\n".format(content,busStop,bus01,' 도착 예정' if bus01 not in ['출발대기','운행종료'] else '',bus02,' 도착 예정' if bus02 not in ['출발대기','운행종료'] else '')
                         }
                     }
                 ]
@@ -651,7 +651,7 @@ def Message():
                 "outputs":[
                     {
                         "simpleText":{
-                            "text": "{} ( {} )\n\n이번 버스 : {}{}\n\n다음 버스 : {}{}\n".format(content,busStop,bus01,' 도착 예정' if bus01 not in ['출발대기','운행종료'] else '',bus02,' 도착 예정' if bus02 not in ['출발대기','운행종료'] else '')
+                            "text": "{} ( {} )\n\n이번 버스 : {}\n{}\n\n다음 버스 : {}\n{}\n".format(content,busStop,bus01,' 도착 예정' if bus01 not in ['출발대기','운행종료'] else '',bus02,' 도착 예정' if bus02 not in ['출발대기','운행종료'] else '')
                         }
                     }
                 ]
@@ -667,7 +667,28 @@ def Message():
                 "outputs":[
                     {
                         "simpleText":{
-                            "text": "{} ( {} )\n\n이번 버스 : {}{}\n\n다음 버스 : {}{}\n".format(content,busStop,bus01,' 도착 예정' if bus01 not in ['출발대기','운행종료'] else '',bus02,' 도착 예정' if bus02 not in ['출발대기','운행종료'] else '')
+                            "text": "{} ( {} )\n\n이번 버스 : {}\n{}\n\n다음 버스 : {}\n{}\n".format(content,busStop,bus01,' 도착 예정' if bus01 not in ['출발대기','운행종료'] else '',bus02,' 도착 예정' if bus02 not in ['출발대기','운행종료'] else '')
+                        }
+                    }
+                ]
+            }
+        }
+    elif content=="!도움말":
+        dataSend = {
+            "version": "2.0",
+            "template":{
+                "outputs":[
+                    {
+                        "simpleTextext":{
+                            "text": "안녕하세요 구암고등학교 정보를 알려주는 알렉스봇입니다.\n"
+                                    "자신이 등하교하는 정류장이 존재하지 않는다면 문의해주세요.\n"
+                                    "채팅 오류나 시스템 오류가 발생할경우 20105 김동우 에게 문의해주세요.\n"
+                                    "피드백이나 더 추가했으면 좋겠는 것들이 있다면 문의해주세요.\n"
+                                    "\n==============\n"
+                                    "자료제공 : 서울특별시교육청, 서울특별시버스정보시스템\n"
+                                    "플러스친구 개발 :  구암고등학교 2학년 1반 김동우 \n"
+                                    "Github : https://github.com/kimdongwoo0930/guamchat"
+                                    "이용해 주셔서 고맙습니다 :)"
                         }
                     }
                 ]
@@ -680,7 +701,7 @@ def Message():
                 "outputs": [
                     {
                         "simpleText":{
-                            "text" : "===========coming soon============"
+                            "text" : "===coming soon==="
                         }
                     }
                 ]
