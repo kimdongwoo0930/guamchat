@@ -587,7 +587,7 @@ def Message():
                 "outputs":[
                     {
                         "simpleText":{
-                            "text": "{} ( {} )\n\n이번 버스 : {}\n{}\n\n다음 버스 : {}\n{}\n".format(content,busStop,bus01,' 도착 예정' if bus01 not in ['출발대기','운행종료'] else '',bus02,' 도착 예정' if bus02 not in ['출발대기','운행종료'] else '')
+                            "text": "{} ( {} )\n\n이번 버스 : {} {}\n\n다음 버스 : {} {}\n".format(content,busStop,bus01,' 도착 예정' if bus01 not in ['출발대기','운행종료'] else '',bus02,' 도착 예정' if bus02 not in ['출발대기','운행종료'] else '')
                         }
                     }
                 ]
@@ -603,7 +603,7 @@ def Message():
                 "outputs":[
                     {
                         "simpleText":{
-                            "text": "{} ( {} )\n\n이번 버스 : {}\n{}\n\n다음 버스 : {}\n{}\n".format(content,busStop,bus01,' 도착 예정' if bus01 not in ['출발대기','운행종료'] else '',bus02,' 도착 예정' if bus02 not in ['출발대기','운행종료'] else '')
+                            "text": "{} ( {} )\n\n이번 버스 : {} {}\n\n다음 버스 : {} {}\n".format(content,busStop,bus01,' 도착 예정' if bus01 not in ['출발대기','운행종료'] else '',bus02,' 도착 예정' if bus02 not in ['출발대기','운행종료'] else '')
                         }
                     }
                 ]
@@ -619,7 +619,7 @@ def Message():
                 "outputs":[
                     {
                         "simpleText":{
-                            "text": "{} ( {} )\n\n이번 버스 : {}\n{}\n\n다음 버스 : {}\n{}\n".format(content,busStop,bus01,' 도착 예정' if bus01 not in ['출발대기','운행종료'] else '',bus02,' 도착 예정' if bus02 not in ['출발대기','운행종료'] else '')
+                            "text": "{} ( {} )\n\n이번 버스 : {} {}\n\n다음 버스 : {} {}\n".format(content,busStop,bus01,' 도착 예정' if bus01 not in ['출발대기','운행종료'] else '',bus02,' 도착 예정' if bus02 not in ['출발대기','운행종료'] else '')
                         }
                     }
                 ]
@@ -635,7 +635,7 @@ def Message():
                 "outputs":[
                     {
                         "simpleText":{
-                            "text": "{} ( {} )\n\n이번 버스 : {}\n{}\n\n다음 버스 : {}\n{}\n".format(content,busStop,bus01,' 도착 예정' if bus01 not in ['출발대기','운행종료'] else '',bus02,' 도착 예정' if bus02 not in ['출발대기','운행종료'] else '')
+                            "text": "{} ( {} )\n\n이번 버스 : {} {}\n\n다음 버스 : {} {}\n".format(content,busStop,bus01,' 도착 예정' if bus01 not in ['출발대기','운행종료'] else '',bus02,' 도착 예정' if bus02 not in ['출발대기','운행종료'] else '')
                         }
                     }
                 ]
@@ -651,7 +651,7 @@ def Message():
                 "outputs":[
                     {
                         "simpleText":{
-                            "text": "{} ( {} )\n\n이번 버스 : {}\n{}\n\n다음 버스 : {}\n{}\n".format(content,busStop,bus01,' 도착 예정' if bus01 not in ['출발대기','운행종료'] else '',bus02,' 도착 예정' if bus02 not in ['출발대기','운행종료'] else '')
+                            "text": "{} ( {} )\n\n이번 버스 : {} {}\n\n다음 버스 : {} {}\n".format(content,busStop,bus01,' 도착 예정' if bus01 not in ['출발대기','운행종료'] else '',bus02,' 도착 예정' if bus02 not in ['출발대기','운행종료'] else '')
                         }
                     }
                 ]
@@ -667,7 +667,7 @@ def Message():
                 "outputs":[
                     {
                         "simpleText":{
-                            "text": "{} ( {} )\n\n이번 버스 : {}\n{}\n\n다음 버스 : {}\n{}\n".format(content,busStop,bus01,' 도착 예정' if bus01 not in ['출발대기','운행종료'] else '',bus02,' 도착 예정' if bus02 not in ['출발대기','운행종료'] else '')
+                            "text": "{} ( {} )\n\n이번 버스 : {} {}\n\n다음 버스 : {} {}\n".format(content,busStop,bus01,' 도착 예정' if bus01 not in ['출발대기','운행종료'] else '',bus02,' 도착 예정' if bus02 not in ['출발대기','운행종료'] else '')
                         }
                     }
                 ]
